@@ -4,8 +4,7 @@ FROM quay.io/uninuvola/pytorchgpu:main
 USER root
 
 ## -- ADD YOUR CODE HERE !! -- ##
-conda install -c conda-forge spacy
-conda install -c conda-forge cupy
+RUN conda install -yc conda-forge spacy && conda install -yc conda-forge cupy
 ## --------------------------- ##
 
 # DO NOT EDIT USER VALUE
