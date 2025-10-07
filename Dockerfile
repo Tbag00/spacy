@@ -1,4 +1,4 @@
-FROM quay.io/uninuvola/pytorchgpu:main
+FROM harbor1.fisgeo.unipg.it/uninuvola/pytorchgpu:main
 
 # DO NOT EDIT USER VALUE
 USER root
